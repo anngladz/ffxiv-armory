@@ -1,4 +1,12 @@
+import CharacterResults from '../components/CharacterResults';
+import Search from '../components/Search';
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <Search />
+      <CharacterResults />
+    </>
+  );
 };
 export default Home;
