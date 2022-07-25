@@ -6,6 +6,12 @@ const Reducer = (state, action) => {
         characters: action.payload,
         loading: false,
       };
+    case 'GET_CHARACTER':
+      return {
+        ...state,
+        character: action.payload,
+        loading: false,
+      };
     case 'SET_LOADING':
       return {
         ...state,

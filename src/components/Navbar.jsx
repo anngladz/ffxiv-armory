@@ -33,7 +33,7 @@ const Navbar = () => {
     <nav className='navbar bg-neutral text-neutral-content shadow-lg py-5'>
       <div className='container mx-auto'>
         <Link to='/' className='btn btn-ghost normal-case text-xl'>
-          FFXIV Finder App
+          FFXIV Armory
         </Link>
         <div className='ml-auto'>
           <Link to='/' className='btn btn-ghost normal-case text-xl'>
