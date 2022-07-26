@@ -27,7 +27,7 @@ const Character = () => {
 
   return (
     <div className='container bg-neutral bg-opacity-40 rounded-lg shadow-md p-10'>
-      <Link to='/'>
+      <Link to='/ffxiv-armory/'>
         <button className='btn w-full mb-5'>Go back</button>
       </Link>
       <div className='flex-col text-center mb-10'>

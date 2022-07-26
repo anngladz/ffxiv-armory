@@ -32,12 +32,15 @@ const Navbar = () => {
   return (
     <nav className='navbar bg-neutral text-neutral-content shadow-lg py-5'>
       <div className='container mx-auto'>
-        <a href='/' className='btn btn-ghost normal-case text-xl'>
+        <a href='/ffxiv-armory/' className='btn btn-ghost normal-case text-xl'>
           FFXIV Armory
         </a>
         <div className='ml-auto'>
           <div className='hidden 2xl:inline-block xl:inline-block lg:inline-block md:inline-block'>
-            <a href='/' className='btn btn-ghost normal-case text-xl'>
+            <a
+              href='/ffxiv-armory/'
+              className='btn btn-ghost normal-case text-xl'
+            >
               Home
             </a>
             <a
@@ -72,7 +75,7 @@ const Navbar = () => {
           {menu ? (
             <div className='absolute top-28 left-0 bg-neutral bg-opacity-90 z-10 w-full h-full text-center'>
               <a
-                href='/'
+                href='/ffxiv-armory/'
                 className='btn btn-ghost normal-case text-xl block h-10 leading-10'
               >
                 Home

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const CharacterCard = ({ character }) => {
   return (
-    <Link to={`/character/${character.ID}`}>
+    <Link to={`/ffxiv-armory/character/${character.ID}`}>
       <div className='card shadow-md compact bg-neutral bg-opacity-40'>
         <div className='flex-row items-center space-x-4 card-body'>
           <div>

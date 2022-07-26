@@ -11,8 +11,8 @@ function App() {
         <Navbar />
         <main className='container mx-auto px-5 py-5 mt-10'>
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/character/:id' element={<Character />} />
+            <Route path='/ffxiv-armory/' element={<Home />} />
+            <Route path='/ffxiv-armory/character/:id' element={<Character />} />
           </Routes>
         </main>
       </Router>
