@@ -7,6 +7,7 @@ export const Provider = ({ children }) => {
   const initialState = {
     characters: [],
     character: {},
+    servers: [],
     loading: false,
   };
 
