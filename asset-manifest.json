@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ffxiv-armory/static/css/main.ec56d82d.css",
-    "main.js": "/ffxiv-armory/static/js/main.c06a4eea.js",
+    "main.css": "/ffxiv-armory/static/css/main.e4b9455d.css",
+    "main.js": "/ffxiv-armory/static/js/main.9a5a2e77.js",
     "index.html": "/ffxiv-armory/index.html",
-    "main.ec56d82d.css.map": "/ffxiv-armory/static/css/main.ec56d82d.css.map",
-    "main.c06a4eea.js.map": "/ffxiv-armory/static/js/main.c06a4eea.js.map"
+    "main.e4b9455d.css.map": "/ffxiv-armory/static/css/main.e4b9455d.css.map",
+    "main.9a5a2e77.js.map": "/ffxiv-armory/static/js/main.9a5a2e77.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec56d82d.css",
-    "static/js/main.c06a4eea.js"
+    "static/css/main.e4b9455d.css",
+    "static/js/main.9a5a2e77.js"
   ]
 }
