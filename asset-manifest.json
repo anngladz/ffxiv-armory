@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ffxiv-armory/static/css/main.ec56d82d.css",
+    "main.js": "/ffxiv-armory/static/js/main.c06a4eea.js",
+    "index.html": "/ffxiv-armory/index.html",
+    "main.ec56d82d.css.map": "/ffxiv-armory/static/css/main.ec56d82d.css.map",
+    "main.c06a4eea.js.map": "/ffxiv-armory/static/js/main.c06a4eea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec56d82d.css",
+    "static/js/main.c06a4eea.js"
+  ]
+}
