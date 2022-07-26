@@ -47,7 +47,7 @@ const Navbar = () => {
               API
             </a>
           </div>
-          <label class='btn btn-circle swap swap-rotate -top-2 2xl:hidden'>
+          <label class='btn btn-circle swap swap-rotate -top-2 2xl:hidden xl:hidden lg:hidden md:hidden'>
             <input type='checkbox' onChange={() => setMenu((prev) => !prev)} />
             <svg
               className='swap-off fill-current'
