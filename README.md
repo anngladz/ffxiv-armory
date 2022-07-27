@@ -13,7 +13,7 @@ Live version: [FFXIV Armory](https://anngladz.github.io/ffxiv-armory/)
 ## Build with
 
 :small_blue_diamond: React.js  
-:small_blue_diamond: Tailwind CSS + daisyUI
+:small_blue_diamond: Tailwind CSS + daisyUI  
 :small_blue_diamond: REST API
 
 ---
