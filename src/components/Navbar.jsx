@@ -50,7 +50,7 @@ const Navbar = () => {
               API
             </a>
           </div>
-          <label class='btn btn-circle swap swap-rotate -top-2 2xl:hidden xl:hidden lg:hidden md:hidden'>
+          <label className='btn btn-circle swap swap-rotate -top-2 2xl:hidden xl:hidden lg:hidden md:hidden'>
             <input type='checkbox' onChange={() => setMenu((prev) => !prev)} />
             <svg
               className='swap-off fill-current'
@@ -73,7 +73,7 @@ const Navbar = () => {
             </svg>
           </label>
           {menu ? (
-            <div className='absolute top-28 left-0 bg-neutral bg-opacity-90 z-10 w-full h-full text-center'>
+            <div className='absolute top-24 p-8 left-0 bg-neutral bg-opacity-90 z-10 w-full h-full text-center'>
               <a
                 href='/ffxiv-armory/'
                 className='btn btn-ghost normal-case text-xl block h-10 leading-10'

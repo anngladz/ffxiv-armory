@@ -25,8 +25,10 @@ const Search = () => {
   const handleSelectDC = (e) => {
     setDataCenter(e.target.value);
     setSelected(e.target.value);
-    if (e.target.value === '') {
+    if (e.target.value === 'Data Center') {
       setServer('');
+      setDataCenter('');
+      setSelected('');
     } else setServer(servers[e.target.value][0]);
   };
   const handleSelectServer = (e) => setServer(e.target.value);
@@ -59,7 +61,7 @@ const Search = () => {
           <div className='relative'>
             <input
               type='text'
-              className='input input-lg input-bordered w-full pr-40 bg-opacity-40'
+              className='input input-lg input-bordered w-full pr-40 bg-opacity-40 '
               placeholder='Search'
               value={text}
               onChange={handleChange}
